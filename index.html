@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <section class="container">
+        <video class="video" autoplay muted loop>
+            <source id="video-souce" src="./videos/video9.mp4" type="video/mp4">
+        </video>
+        
+        <h1>Previsão do Tempo</h1>
+        <input type="text" id="cityInput" placeholder="Digite o nome da cidade">
+        
+
+        <div class="caixa"> </div>
+
+        <div class="weather-info">
+
+            <input type="button" value="Obter Previsão" id="weatherButton">
+            <i class="fa-solid fa-magnifying-glass" ></i>
+            <h2 id="city"></h2>
+            
+            <h2><div id="temperature"></h2>
+            </div>
+
+            <p id="description"></p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
